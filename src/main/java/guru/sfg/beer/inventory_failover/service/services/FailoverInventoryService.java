@@ -16,7 +16,7 @@ public class FailoverInventoryService {
 	public BeerInventoryDto defaultBeerInventoryDto() {
 		return BeerInventoryDto.builder()
 				.id(UUID.randomUUID())
-				.beerId("00000000000")
+				.beerId(UUID.randomUUID())
 				.quantityOnHand(999)
 				.build();
 	}

@@ -13,8 +13,8 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @RequiredArgsConstructor
-@RequestMapping("/api/v1/inventory-failover")
-@RestController
+//@RequestMapping("/api/v1/inventory-failover")
+//@RestController
 public class InventoryFailoverController {
 	
 	private final FailoverInventoryService service;

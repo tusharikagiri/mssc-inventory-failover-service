@@ -20,7 +20,7 @@ public class BeerInventoryDto {
     private Long version;
     private OffsetDateTime createdDate;
     private OffsetDateTime lastModifiedDate;
-    private String beerId;
+    private UUID beerId;
     private String upc;
     private Integer quantityOnHand;
 }
